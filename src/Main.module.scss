@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+.itemDescription {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+
+.wrapper {
+  display: inline-flex;
+  max-width: 1200px;
+  margin: 15px;
+  justify-content: center;
+}
+
+.wrapItem img {
+  border-radius: 10px 10px 0 0;
+  height: 423px;
+  width: 320px;
+
+}
+
+.availableBlock {
+  margin: 50px auto;
+}
+
+.created_by {
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.created_by p {
+  font-weight: normal;
+  opacity: 0.7;
+}
+
+.itemName {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 380px;
+  left: 10px;
+}
+
+.wrapItem {
+  position: relative;
+  border-radius: 10px;
+  width: 320px;
+  height: 500px;
+  box-shadow: 10px 1px 20px #eeeeee;
+}
+
+.flexWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.itemDescription h3 {
+  display: flex;
+}
+
+.priceItem h3 {
+  font-weight: inherit;
+  color: #1043ce;
+}
+
+.availableItem {
+  margin: 0 5px;
+}
+
+.available {
+  color: #939393;
+  padding-left: 5px;
+}
+
+.price {
+  color: #939393;
+}
+
+.showAvailable {
+  color: black;
+  margin: 15px 0;
+}
